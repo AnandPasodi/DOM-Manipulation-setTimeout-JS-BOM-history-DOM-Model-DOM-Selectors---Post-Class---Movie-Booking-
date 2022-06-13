@@ -1,29 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./app.js" defer type="module"> </script>
-    <link rel="stylesheet" href="./app.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./app.js" defer type="module"></script>
+    <link rel="stylesheet" href="app.css" />
+    <script src="https://kit.fontawesome.com/f60406b934.js" crossorigin="anonymous"></script>
     <title>Document</title>
-</head>
-<body>
-    <nav>
-        <div class="logo">Movie Book</div>
-        <ul>
-            <li>Home</li>
-            <li>About us</li>
-            <li>Know more</li>
-        </ul>
-    </nav>
-    <main id="main">
-
+  </head>
+  <body>
+    <header class="navbar">
+        <li class="logo"><a href="#">Movies <span>Booking</span></a></li>
+        <li class="buttons">Sign In</a>
+        
+        </header>
+            <section class="home">
+        <div class="area">
+          <h1>Unlimited movies, TV <br>shows, and more.</h1>
+          <h3>Watch anywhere. Cancel anytime.
+            </h3>
+        
+            <div class="search">
+              <input type="text" class="box" placeholder="Email">
+              <span class="try">
+        Try 30 days free <i class="fas fa-chevron-right"></i>
+        
+        
+              </span>
+        </div>
+        <h4>Ready to watch? Enter your email to create or access your account
+          </h4>
+            </div>
+           
+            </section>
+    <main id="main" class="main">
+     
     </main>
     <div id="booker">
-        <h3 class="v-none">Seat Selector</h3>
-        <div id="booker-grid-holder"></div>
-        <button id="book-ticket-btn" class="v-none">Book my seats</button>
+      <h3 class="v-none">Seat Selector</h3>
+      <div id="booker-grid-holder"></div>
+      <button id="book-ticket-btn" class="v-none">Book my seats</button>
     </div>
-</body>
+  </body>
 </html>

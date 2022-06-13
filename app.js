@@ -10,6 +10,7 @@ async function renderMovies() {
   let movieHolder = document.createElement("div");
   movieHolder.setAttribute("class", "movie-holder");
   movies.forEach((movie) => {
+    console.log(movie)
     createSeparateMovieTabs(movie, movieHolder);
   });
   mainElement.innerHTML = "";
